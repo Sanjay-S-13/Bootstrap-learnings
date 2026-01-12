@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center mt-2">Contact</h1>
+        <div class="row">
+            <div>
+                <label for="name" class="form-label">First Name : </label>
+                <input type="text" class="form-control" name="name" id="name">
+            </div>
+            <div>
+                <label for="lname" class="form-label">Last Name : </label>
+                <input type="text" class="form-control" name="lname" id="lname">
+            </div>
+            <div>
+                <label for="phone" class="form-label">Phone number : </label>
+                <input type="number" class="form-control" name="phone" id="phone">
+            </div>
+            <div class="col">
+                <div>
+                    <label for="day" class="form-label">Day : </label>
+                    <input type="tel" class="form-control" name="day" id="day">
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <label for="m" class="form-label">Month : </label>
+                    <input type="text" class="form-control" name="m" id="m">
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <label for="y" class="form-label">Year : </label>
+                    <input type="number" class="form-control" name="y" id="y">
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <label for="t" class="form-label">Time : </label>
+                    <input type="time" class="form-control" name="t" id="t">
+                </div>
+            </div>
+            <div class="mt-3" >
+                <label class="mb-2" for="seatpref">Seating preference : </label>
+                <div>
+                    <input class="me-2" type="radio" name="seatpref" id="seatpref">
+                    <label class="me-4" for="seatpref">Indoor</label>
+                    <input class="me-2" type="radio" name="seatpref" id="seatpref">
+                    <label for="seatpref">Outdoor</label>
+                </div>
+            </div>
+            <div>
+                <label class="mt-3" for="comments">Additional Requests : </label>
+                <div class="mt-2">
+                    <textarea name="comments" id="comments" rows="2" cols="100"></textarea>
+                </div>
+            </div>
+            <div class="form-check mt-3">
+                <label class="form-check-label ms-2 ">
+                    <input class="form-check-input" type="checkbox" name="note"> Yes, Subscribe me to your newsletter...
+                </label>
+            </div>
+            <div>
+                <button type="submit" class="bg-dark text-white" style="width: 100%; margin-top: 10px; padding: 10px; border: none;">Request booking</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
